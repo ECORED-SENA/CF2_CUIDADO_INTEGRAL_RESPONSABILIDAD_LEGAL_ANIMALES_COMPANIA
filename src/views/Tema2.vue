@@ -37,7 +37,7 @@
                   i.fas.fa-circle-check.bg-color-3
                   p.mb-0 El médico veterinario, como profesional competente para la prevención, diagnóstico y manejo sanitario.
             p.mb-0 En Colombia, la salud animal constituye una obligación legal, ética y social del tutor, sustentada en el reconocimiento jurídico de los animales como seres sintientes, lo cual implica el deber de brindarles condiciones adecuadas de vida, protección contra el sufrimiento evitable y acceso oportuno a la atención sanitaria.
-            p Este deber se articula con el enfoque de Una Sola Salud (One Health), que reconoce la interdependencia entre la salud animal, la salud humana y la salud de los ecosistemas, especialmente frente a enfermedades zoonóticas, resistencia antimicrobiana, contaminación ambiental y emergencias sanitarias.
+            p Este deber se articula con el enfoque de Una Sola Salud (<i>One Health</i>), que reconoce la interdependencia entre la salud animal, la salud humana y la salud de los ecosistemas, especialmente frente a enfermedades zoonóticas, resistencia antimicrobiana, contaminación ambiental y emergencias sanitarias.
 
 
         .row.align-items-center
@@ -193,11 +193,11 @@
         .row.align-items-center.p-4
           .col-lg-7.mb-4.mb-md-0
             h4 Medicina preventiva en mascotas no convencionales
-            p En mascotas no convencionales (como aves ornamentales, cobayos, conejos, peces y otras especies permitidas) la medicina preventiva se basa principalmente en:
+            p En mascotas no convencionales (como aves ornamentales, cobayos, conejos, peces y otras especies permitidas la medicina preventiva se basa principalmente en:
             ul.lista-ul--color.mb-0
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
-                p.mb-0 Manejo ambiental adecuado, respetando las necesidades biológicas y etológicas de cada especie..
+                p.mb-0 Manejo ambiental adecuado, respetando las necesidades biológicas y etológicas de cada especie.
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0  Bioseguridad estricta, con cuarentena de nuevos individuos y control del origen.
@@ -706,7 +706,7 @@
             p(data-aos="fade-left") Las medidas de bioseguridad comprenden el conjunto de prácticas, protocolos y hábitos preventivos orientados a evitar la introducción, diseminación y transmisión de agentes patógenos (bacterias, virus, parásitos, hongos y otros microorganismos) dentro del hogar, entre animales y hacia la comunidad. Su aplicación sistemática es esencial tanto en hogares con una sola mascota como en aquellos con múltiples animales, especies diferentes o en condiciones de mayor riesgo sanitario.
         
             .bg-color-7.tarjeta.p-4(data-aos="fade-left")
-              p.mb-0 La bioseguridad constituye un pilar fundamental de la medicina preventiva, ya que permite reducir la incidencia de enfermedades infecciosas y parasitarias, minimizar brotes sanitarios, proteger la salud de los tutores y fortalecer la convivencia responsable. Estas medidas no solo protegen a la mascota, sino que también disminuyen el riesgo de zoonosis, previenen la contaminación ambiental y consolidan el enfoque de Una Sola Salud (One Health), que reconoce la estrecha relación entre la salud animal, humana y ambiental.
+              p.mb-0 La bioseguridad constituye un pilar fundamental de la medicina preventiva, ya que permite reducir la incidencia de enfermedades infecciosas y parasitarias, minimizar brotes sanitarios, proteger la salud de los tutores y fortalecer la convivencia responsable. Estas medidas no solo protegen a la mascota, sino que también disminuyen el riesgo de zoonosis, previenen la contaminación ambiental y consolidan el enfoque de Una Sola Salud (<i>One Health</i>), que reconoce la estrecha relación entre la salud animal, humana y ambiental.
 
         p.mb-5 En Colombia, la implementación de estas medidas forma parte de las obligaciones del tutor dentro de la tenencia responsable, especialmente en contextos de riesgo como la introducción de nuevos animales, la presencia de enfermedades, la convivencia con fauna silvestre o la ocurrencia de eventos sanitarios de interés en salud pública.
     
@@ -958,7 +958,7 @@
               img(src="@/assets/curso/tema2/58.png", data-aos="zoom-in")
           .col-lg-7.order-lg-1  
             .bg-color-15.tarjeta.p-5(data-aos="fade-left").mb-3
-              p.mb-0 Bajo el enfoque de Una Sola Salud (One Health), reconocido por organismos internacionales y adoptado progresivamente en Colombia, se entiende que la salud humana, la salud animal y la salud ambiental son interdependientes. Por tanto, la prevención y el control de enfermedades no pueden abordarse de manera aislada, sino mediante acciones coordinadas entre tutores, profesionales veterinarios, autoridades sanitarias y la comunidad.
+              p.mb-0 Bajo el enfoque de Una Sola Salud (<i>One Health</i>), reconocido por organismos internacionales y adoptado progresivamente en Colombia, se entiende que la salud humana, la salud animal y la salud ambiental son interdependientes. Por tanto, la prevención y el control de enfermedades no pueden abordarse de manera aislada, sino mediante acciones coordinadas entre tutores, profesionales veterinarios, autoridades sanitarias y la comunidad.
             p(data-aos="fade-left") El incumplimiento de las obligaciones sanitarias en mascotas, ya sea por negligencia, desconocimiento o falta de control, puede generar riesgos colectivos, favorecer la aparición de brotes zoonóticos, incrementar los costos en salud pública y afectar la convivencia social.
 
         .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -1205,7 +1205,7 @@
                         p.mb-0 Manejo inadecuado de excretas.
                       li.mb-3.d-flex
                         i.fas.fa-circle-check.bg-color-3
-                        p.mb-0 Convivencia estrecha sin medidas de higiene..
+                        p.mb-0 Convivencia estrecha sin medidas de higiene.
                       li.mb-3.d-flex
                         i.fas.fa-circle-check.bg-color-3
                         p.mb-0 Tenencia de especies no convencionales sin asesoría veterinaria.
@@ -1479,7 +1479,7 @@
           img(src="@/assets/curso/tema2/76.svg", data-aos="zoom-in")
       .col-lg-9.order-lg-1
         .bg-color-8.tarjeta.p-5(data-aos="fade-left").mb-3
-          p.mb-0 La salud animal y la tenencia responsable de mascotas en Colombia se sustentan en un marco normativo integral que reconoce a los animales como seres sintientes, establece deberes para los tutores y define competencias para las autoridades sanitarias. Estas normas buscan proteger el bienestar animal, prevenir enfermedades zoonóticas, salvaguardar la salud pública y promover una convivencia armónica entre humanos y animales, bajo el enfoque de Una Sola Salud (One Health).
+          p.mb-0 La salud animal y la tenencia responsable de mascotas en Colombia se sustentan en un marco normativo integral que reconoce a los animales como seres sintientes, establece deberes para los tutores y define competencias para las autoridades sanitarias. Estas normas buscan proteger el bienestar animal, prevenir enfermedades zoonóticas, salvaguardar la salud pública y promover una convivencia armónica entre humanos y animales, bajo el enfoque de Una Sola Salud (<i>One Health</i>).
     
     p.mb-5 A continuación se presenta un resumen de las principales normas que rigen la salud y el bienestar de las mascotas en el país:
 
@@ -1601,7 +1601,7 @@
                         p.mb-0 Facilitar la identificación y registro del animal.
                       li.mb-3.d-flex
                         i.fas.fa-circle-check.bg-color-3
-                        p.mb-0 Permitir la inspección sanitaria cuando sea requerida.a.
+                        p.mb-0 Permitir la inspección sanitaria cuando sea requerida.
                       li.mb-3.d-flex
                         i.fas.fa-circle-check.bg-color-3
                         p.mb-0 Prevenir riesgos a la salud pública y ambiental.
