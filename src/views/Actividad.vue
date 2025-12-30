@@ -17,8 +17,7 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema:
-        'Gestión del bienestar animal en la tenencia responsable de mascotas',
+      tema: 'Cuidado integral y responsabilidad legal en animales de compañía.',
       titulo: 'Cuestionario',
       introduccion:
         '<b> Objetivo:</b> evaluar el conocimiento sobre los principios, prácticas, normativas y responsabilidades relacionados con el bienestar animal y la tenencia responsable de animales de compañía en Colombia.',
