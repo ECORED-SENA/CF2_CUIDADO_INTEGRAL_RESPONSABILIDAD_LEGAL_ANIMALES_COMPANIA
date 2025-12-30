@@ -1,7 +1,6 @@
 export default {
   global: {
-    Name:
-      'Gestión del bienestar animal en la tenencia responsable de animales de compañía',
+    Name: 'Cuidado integral y responsabilidad legal en animales de compañía.',
     Description:
       'El componente formativo explica la tenencia responsable de mascotas, incluyendo deberes legales y éticos para asegurar su bienestar. Aborda alimentación, salud, vacunación, desparasitación, bioseguridad, identificación y registro. Destaca el control de zoonosis, la salud pública y el manejo humanitario. Resalta leyes colombianas que protegen a los animales como seres sintientes y obligan a evitar el sufrimiento.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
