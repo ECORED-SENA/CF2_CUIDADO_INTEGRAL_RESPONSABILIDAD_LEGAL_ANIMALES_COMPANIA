@@ -223,10 +223,10 @@
       table
         thead
           tr
-            th.bg-color-9 Mecanismo
-            th.bg-color-9 Descripción y características
-            th.bg-color-9 Ventajas
-            th.bg-color-9 Limitaciones / Uso recomendado
+            th.bg-color-9.text-start Mecanismo
+            th.bg-color-9.text-start Descripción y características
+            th.bg-color-9.text-start Ventajas
+            th.bg-color-9.text-start Limitaciones / Uso recomendado
         tbody
           tr
             td Collar con placa identificativa

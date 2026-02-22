@@ -68,7 +68,7 @@
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0  Reducción del estrés, la ansiedad, el miedo y la confusión, especialmente en animales geriátricos o neurológicos.
-              li.mb-0.d-flex
+              li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Mantenimiento de la movilidad, la funcionalidad y la autonomía el mayor tiempo posible.
               li.mb-2.d-flex
@@ -77,12 +77,12 @@
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0  Acompañamiento emocional del animal y fortalecimiento del vínculo con el tutor.
-              li.mb-0.d-flex
+              li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Evaluación ética y profesional del momento adecuado para considerar la eutanasia humanitaria.
           .col-lg-5.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema3/7.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema3/7.png', alt='')
       .p-4(titulo="Cuidados paliativos en mascotas convencionales" :icono="require('@/assets/componentes/1.svg')")
         .row.align-items-center.p-4
           .col-lg-7.mb-4.mb-md-0
@@ -95,7 +95,7 @@
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0  Soporte nutricional adaptado a la condición clínica, incluyendo dietas terapéuticas, alimentos de fácil digestión o alimentación asistida.
-              li.mb-0.d-flex
+              li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Hidratación adecuada por vía oral o subcutánea, cuando el animal no puede consumir líquidos por sí mismo.
               li.mb-2.d-flex
@@ -104,12 +104,12 @@
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0  Adecuación del entorno doméstico, incorporando superficies antideslizantes, rampas, camas ortopédicas y accesos fáciles a agua y alimento.
-              li.mb-0.d-flex
+              li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Control de la incontinencia urinaria o fecal, manteniendo una higiene adecuada para evitar infecciones y dermatitis.
           .col-lg-5.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema3/8.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema3/8.png', alt='')
       .p-4(titulo="Cuidados paliativos en mascotas no convencionales" :icono="require('@/assets/componentes/1.svg')")
         .row.align-items-center.p-4
           .col-lg-7.mb-4.mb-md-0
@@ -123,7 +123,7 @@
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0  Reducción de la manipulación innecesaria, que puede generar estrés severo.
-              li.mb-0.d-flex
+              li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Aislamiento del estrés social, territorial o reproductivo cuando sea necesario.
               li.mb-2.d-flex
@@ -132,12 +132,12 @@
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0  Uso extremadamente prudente de analgésicos y medicamentos, solo bajo supervisión veterinaria especializada.
-              li.mb-0.d-flex
+              li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Observación constante de cambios sutiles en el comportamiento, postura, consumo de alimento y respuesta al entorno.
           .col-lg-5.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema3/9.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema3/9.png', alt='')
 
     separador
     
@@ -174,7 +174,7 @@
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0  Enfermedad renal crónica.
-              li.mb-0.d-flex
+              li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Cardiopatías degenerativas.
               li.mb-2.d-flex
@@ -191,7 +191,7 @@
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0  Plan de manejo integral a largo plazo.
-              li.mb-0.d-flex
+              li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Control del dolor, inflamación y síntomas secundarios.
               li.mb-2.d-flex
@@ -207,7 +207,7 @@
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Trastornos metabólicos y óseos en reptiles.
-              li.mb-0.d-flex
+              li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Enfermedades respiratorias crónicas en aves.
               li.mb-2.d-flex
@@ -221,7 +221,7 @@
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Nutrición adecuada a la especie y etapa de vida.
-              li.mb-0.d-flex
+              li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Reducción de factores estresantes.
               li.mb-2.d-flex
@@ -259,7 +259,7 @@
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Dietas terapéuticas específicas.
-              li.mb-0.d-flex
+              li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Rehabilitación física, fisioterapia y ejercicios controlados.
               li.mb-2.d-flex
@@ -270,7 +270,7 @@
                 p.mb-0 Evaluaciones periódicas del dolor, el estado general y la respuesta al tratamiento.
           .col-lg-4.order-1.mb-3.mb-lg-0
             figure
-              img(src='@/assets/curso/tema3/15.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema3/15.png', alt='')
       .p-4(titulo="Manejo de condiciones crónicas en mascotas no convencionales")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-md-0.order-2
@@ -282,7 +282,7 @@
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Observación diaria de conducta, postura y consumo.
-              li.mb-0.d-flex
+              li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Nutrición estrictamente balanceada.
               li.mb-2.d-flex
@@ -290,7 +290,7 @@
                 p.mb-0 Evitar completamente tratamientos empíricos o caseros.
           .col-lg-4.order-1.mb-3.mb-lg-0
             figure
-              img(src='@/assets/curso/tema3/16.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema3/16.png', alt='')
       .p-4(titulo="Evaluación de la calidad de vida y decisiones éticas")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-md-0.order-2
@@ -314,7 +314,7 @@
                 p.mb-0 Respuesta real al tratamiento.
           .col-lg-4.order-1.mb-3.mb-lg-0
             figure
-              img(src='@/assets/curso/tema3/17.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema3/17.png', alt='')
     
     .row.mb-5.align-items-center
       .col-lg-3.mb-3.mb-lg-0
@@ -354,7 +354,7 @@
                   li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-3
                     p.mb-0 Una obligación legal.
-                  li.mb-0.d-flex
+                  li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-3
                     p.mb-0 Un compromiso social con la protección animal.
                   li.mb-2.d-flex

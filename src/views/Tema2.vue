@@ -173,7 +173,7 @@
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0  Desparasitación interna y externa periódica.
-              li.mb-0.d-flex
+              li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Controles clínicos anuales o semestrales.
               li.mb-2.d-flex
@@ -182,18 +182,18 @@
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0  Control del peso y actividad física.
-              li.mb-0.d-flex
+              li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Prevención de zoonosis de interés en salud pública.
             p El cumplimiento riguroso de estos programas reduce significativamente la incidencia de enfermedades transmisibles y mejora la convivencia humano-animal.
           .col-lg-5.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema2/13.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema2/13.png', alt='')
       .p-4(titulo="Medicina preventiva en mascotas no convencionales" :icono="require('@/assets/componentes/3.svg')")
         .row.align-items-center.p-4
           .col-lg-7.mb-4.mb-md-0
             h4 Medicina preventiva en mascotas no convencionales
-            p En mascotas no convencionales (como aves ornamentales, cobayos, conejos, peces y otras especies permitidas la medicina preventiva se basa principalmente en:
+            p En mascotas no convencionales (como aves ornamentales, cobayos, conejos, peces y otras especies permitidas) la medicina preventiva se basa principalmente en:
             ul.lista-ul--color.mb-0
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
@@ -201,7 +201,7 @@
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0  Bioseguridad estricta, con cuarentena de nuevos individuos y control del origen.
-              li.mb-0.d-flex
+              li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Nutrición específica por especie, evitando dietas inadecuadas o improvisadas.
               li.mb-2.d-flex
@@ -213,7 +213,7 @@
             p En estos animales, la prevención es especialmente crítica, ya que la detección tardía de la enfermedad suele asociarse con altas tasas de mortalidad.
           .col-lg-5.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema2/14.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema2/14.png', alt='')
 
     separador
     
@@ -336,36 +336,36 @@
               table
                 thead
                   tr
-                    th.bg-color-9 Edad
-                    th.bg-color-9 Vacuna
-                    th.bg-color-9 Dosis
-                    th.bg-color-9 Vía de aplicación
+                    th.bg-color-9.text-start Edad
+                    th.bg-color-9.text-start Vacuna
+                    th.bg-color-9.text-start Dosis
+                    th.bg-color-9.text-start Vía de aplicación
                 tbody.bg-color-white
                   tr
-                    td 6–8 semanas
-                    td Moquillo, Parvovirus
-                    td Según fabricante
-                    td Subcutánea
+                    td.text-start 6–8 semanas
+                    td.text-start Moquillo, Parvovirus
+                    td.text-start Según fabricante
+                    td.text-start Subcutánea
                   tr.bg-color-sintesis
-                    td 9–12 semanas
-                    td Moquillo, Parvovirus, Hepatitis, Parainfluenza
-                    td Según fabricante
-                    td Subcutánea
+                    td.text-start 9–12 semanas
+                    td.text-start Moquillo, Parvovirus, Hepatitis, Parainfluenza
+                    td.text-start Según fabricante
+                    td.text-start Subcutánea
                   tr
-                    td 12–16 semanas
-                    td Leptospirosis
-                    td Según fabricante
-                    td Subcutánea
+                    td.text-start 12–16 semanas
+                    td.text-start Leptospirosis
+                    td.text-start Según fabricante
+                    td.text-start Subcutánea
                   tr.bg-color-sintesis
                     td ≥ 3 meses
-                    td Rabia (obligatoria)
-                    td Según fabricante
-                    td Subcutánea
+                    td.text-start Rabia (obligatoria)
+                    td.text-start Según fabricante
+                    td.text-start Subcutánea
                   tr
-                    td Anual
-                    td Refuerzos
-                    td Según protocolo
-                    td Subcutánea
+                    td.text-start Anual
+                    td.text-start Refuerzos
+                    td.text-start Según protocolo
+                    td.text-start Subcutánea
 
         .row.justify-content-center
           .col-lg-10
@@ -394,31 +394,31 @@
               table
                 thead
                   tr
-                    th.bg-color-9 Edad
-                    th.bg-color-9 Vacuna
-                    th.bg-color-9 Dosis
-                    th.bg-color-9 Vía
+                    th.bg-color-9.text-start Edad
+                    th.bg-color-9.text-start Vacuna
+                    th.bg-color-9.text-start Dosis
+                    th.bg-color-9.text-start Vía
                 tbody.bg-color-white
                   tr
-                    td 8–9 semanas
-                    td Panleucopenia, Rinotraqueítis, Calicivirus (Triple felina)
-                    td Según fabricante
-                    td Subcutánea
+                    td.text-start 8–9 semanas
+                    td.text-start Panleucopenia, Rinotraqueítis, Calicivirus (Triple felina)
+                    td.text-start Según fabricante
+                    td.text-start Subcutánea
                   tr.bg-color-sintesis
-                    td 12 semanas
-                    td Refuerzo triple felina
-                    td Según fabricante
-                    td Subcutánea
+                    td.text-start 12 semanas
+                    td.text-start Refuerzo triple felina
+                    td.text-start Según fabricante
+                    td.text-start Subcutánea
                   tr
                     td ≥ 3 meses
-                    td Rabia (según riesgo epidemiológico)
-                    td Según fabricante
-                    td Subcutánea
+                    td.text-start Rabia (según riesgo epidemiológico)
+                    td.text-start Según fabricante
+                    td.text-start Subcutánea
                   tr.bg-color-sintesis
-                    td Anual o trianual
-                    td Refuerzos
-                    td Según protocolo
-                    td Subcutánea
+                    td.text-start Anual o trianual
+                    td.text-start Refuerzos
+                    td.text-start Según protocolo
+                    td.text-start Subcutánea
 
     .row.justify-content-center
       .col-lg-10
@@ -461,7 +461,7 @@
               .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/28.svg", style="max-width: 90px").mx-auto
               .col-lg
-                p.mb-0 Falta de estudios de seguridad y eficacia.
+                p.mb-0 Alta sensibilidad inmunológica.
     
     p.mb-5 A continuación se presentan  las principales pautas preventivas y consideraciones sanitarias aplicables a aves ornamentales, pequeños mamíferos y peces ornamentales, junto con criterios generales de seguridad vacunal.
 
@@ -573,12 +573,12 @@
                       li.mb-3.d-flex
                         i.fas.fa-circle-check.bg-color-3
                         p.mb-0 Contacto con otros animales.
-                      li.mb-0.d-flex
+                      li.mb-3.d-flex
                         i.fas.fa-circle-check.bg-color-3
                         p.mb-0 Presencia de vectores y condiciones climáticas.
-                      li.mb-0.d-flex
+                      li.mb-3.d-flex
                         i.fas.fa-circle-check.bg-color-3
-                        p.mb-0 Riesgo epidemiológico regional
+                        p.mb-0 Riesgo epidemiológico regional.
         p.mb-5 El uso inadecuado de antiparasitarios puede causar intoxicaciones, resistencia parasitaria e incluso la muerte, especialmente en aves, roedores, lagomorfos y peces. A continuación,  se presenta una descripción de la endoparasitación y la ectoparasitación, integrando los tipos de parásitos involucrados, las vías de administración y la frecuencia orientativa de control como parte de la medicina preventiva: 
 
         .row.align-items-start.mb-5
@@ -606,7 +606,7 @@
                     p.mb-0 Vías de administración: tópica (pipetas, sprays, baños medicados), oral sistémica (comprimidos de acción prolongada) y ambiental (limpieza y desinfección del entorno). 
                   li.mb-2.d-flex
                     i.fas.fa-circle-check.bg-color-3
-                    p.mb-0 Frecuencia orientativa: aplicaciones mensuales o según la duración del producto, el nivel de infestación y el riesgo ambiental, manteniendo siempre el control del entorno debido a que una proporción elevada del ciclo de vida ocurre fuera del animal.
+                    p.mb-0 Frecuencia orientativa: aplicaciones mensuales o según la duración del producto, el nivel de infestación y el riesgo ambiental, manteniendo siempre el control del entorno, debido a que una proporción elevada del ciclo de vida ocurre fuera del animal.
     
     p.mb-5 La desparasitación responsable es parte de las obligaciones del tutor dentro de la tenencia responsable. Contribuye a la prevención de zoonosis como toxocariasis, giardiasis, sarna y enfermedades transmitidas por vectores, conforme a los lineamientos del Ministerio de Salud, el ICA y la legislación colombiana vigente.
 
@@ -671,8 +671,8 @@
               table
                 thead
                   tr
-                    th.bg-color-9 Tipo de mascota
-                    th.bg-color-9 Cambios que deben alertar al tutor
+                    th.bg-color-9.text-start Tipo de mascota
+                    th.bg-color-9.text-start Cambios que deben alertar al tutor
                 tbody
                   tr
                     td Perros y gatos
@@ -1001,38 +1001,38 @@
             ul.lista-ul--color.mb-0
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
-                p.mb-0 Vacunación obligatoria contra la rabia
+                p.mb-0 Vacunación obligatoria contra la rabia.
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
-                p.mb-0  Desparasitación regular con enfoque zoonótico
-              li.mb-0.d-flex
-                i.fas.fa-circle-check.bg-color-3
-                p.mb-0 Control de ectoparásitos transmisores de enfermedades
+                p.mb-0  Desparasitación regular con enfoque zoonótico.
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
-                p.mb-0 Manejo responsable en espacios públicos
+                p.mb-0 Control de ectoparásitos transmisores de enfermedades.
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
-                p.mb-0 Prevención de mordeduras mediante educación, socialización y atención veterinaria
+                p.mb-0 Manejo responsable en espacios públicos.
+              li.mb-2.d-flex
+                i.fas.fa-circle-check.bg-color-3
+                p.mb-0 Prevención de mordeduras mediante educación, socialización y atención veterinaria.
             p Estas medidas permiten reducir significativamente la incidencia de zoonosis urbanas y los eventos de riesgo para la comunidad.
           .div(titulo="Salud pública y mascotas no convencionales")
             p En especies como aves, cobayos, conejos, reptiles y peces ornamentales, los riesgos sanitarios son más específicos y menos evidentes. A continuación, se resumen las principales medidas de prevención:
             ul.lista-ul--color.mb-0
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
-                p.mb-0 Control sanitario estricto del origen del animal
+                p.mb-0 Control sanitario estricto del origen del animal.
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
-                p.mb-0 Cuarentena y observación clínica
-              li.mb-0.d-flex
-                i.fas.fa-circle-check.bg-color-3
-                p.mb-0 Medidas de bioseguridad reforzadas
+                p.mb-0 Cuarentena y observación clínica.
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
-                p.mb-0 Manejo higiénico de jaulas, aviarios, acuarios y terrarios
+                p.mb-0 Medidas de bioseguridad reforzadas.
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
-                p.mb-0 Educación del tutor sobre riesgos zoonóticos asociados a cada especie
+                p.mb-0 Manejo higiénico de jaulas, aviarios, acuarios y terrarios.
+              li.mb-2.d-flex
+                i.fas.fa-circle-check.bg-color-3
+                p.mb-0 Educación del tutor sobre riesgos zoonóticos asociados a cada especie.
             p Enfermedades como salmonelosis, psitacosis, dermatofitosis y diversas parasitosis pueden transmitirse por contacto directo o indirecto si no se aplican las medidas adecuadas.
           .div(titulo="Responsabilidades del tutor frente a la salud pública")
             p El tutor de una mascota, ya sea convencional o no convencional, tiene la responsabilidad legal y social de participar activamente en las siguientes acciones:
@@ -1042,8 +1042,8 @@
                 p.mb-0 Campañas oficiales de vacunación, especialmente contra la rabia, promovidas por las autoridades sanitarias.
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
-                p.mb-0  Programas de esterilización y control poblacional, como medida preventiva y de bienestar
-              li.mb-0.d-flex
+                p.mb-0  Programas de esterilización y control poblacional, como medida preventiva y de bienestar.
+              li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Jornadas de educación sanitaria y bienestar animal.
               li.mb-2.d-flex
@@ -1055,13 +1055,13 @@
             ul.lista-ul--color.mb-0
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
-                p.mb-0 El reconocimiento de los animales como seres sintientes
+                p.mb-0 El reconocimiento de los animales como seres sintientes.
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
-                p.mb-0 La obligación del tutor de garantizar condiciones sanitarias adecuadas
-              li.mb-0.d-flex
+                p.mb-0 La obligación del tutor de garantizar condiciones sanitarias adecuadas.
+              li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
-                p.mb-0 La protección del interés general y la salud colectiva
+                p.mb-0 La protección del interés general y la salud colectiva.
             p El incumplimiento puede dar lugar a sanciones administrativas, responsabilidades civiles o penales, especialmente cuando se compromete la salud pública.
         
     separador
@@ -1121,11 +1121,11 @@
       table
         thead
           tr
-            th.bg-color-9 Enfermedad
-            th.bg-color-9 Mascotas asociadas
-            th.bg-color-9 Signos en animales
-            th.bg-color-9 Signos en humanos
-            th.bg-color-9 Vía de contacto
+            th.bg-color-9.text-start Enfermedad
+            th.bg-color-9.text-start Mascotas asociadas
+            th.bg-color-9.text-start Signos en animales
+            th.bg-color-9.text-start Signos en humanos
+            th.bg-color-9.text-start Vía de contacto
         tbody
           tr
             td Rabia
@@ -1493,60 +1493,60 @@
           table
             thead
               tr
-                th.bg-color-9 Norma
-                th.bg-color-9 Año
-                th.bg-color-9 Entidad
-                th.bg-color-9 Alcance principal
-                th.bg-color-9 Aplicación en mascotas
+                th.bg-color-9.text-start Norma
+                th.bg-color-9.text-start Año
+                th.bg-color-9.text-start Entidad
+                th.bg-color-9.text-start Alcance principal
+                th.bg-color-9.text-start Aplicación en mascotas
             tbody.bg-color-white
               tr
                 td Ley 84 – Estatuto Nacional de Protección de los Animales
                 td 1989
                 td Congreso de la República
-                td Establece principios básicos de protección animal y prohíbe actos de crueldad, maltrato y abandono
-                td Aplica a todas las mascotas convencionales y no convencionales; fundamento jurídico de la protección animal
+                td Establece principios básicos de protección animal y prohíbe actos de crueldad, maltrato y abandono.
+                td Aplica a todas las mascotas convencionales y no convencionales; fundamento jurídico de la protección animal.
               tr.bg-color-sintesis
                 td Ley 1774 – Animales como seres sintientes
                 td 2016
                 td Congreso de la República
-                td Reconoce a los animales como seres sintientes y refuerza la responsabilidad legal del tutor
-                td Obliga a garantizar bienestar, salud, atención veterinaria y manejo humanitario
+                td Reconoce a los animales como seres sintientes y refuerza la responsabilidad legal del tutor.
+                td Obliga a garantizar bienestar, salud, atención veterinaria y manejo humanitario.
               tr
                 td Ley 2455 de 2025 (Ley Ángel)
                 td 2025
                 td Congreso de la República
-                td Endurece sanciones penales y administrativas por maltrato animal
-                td Aplica a negligencia sanitaria, omisión de cuidados, abandono y prácticas que afecten la salud
+                td Endurece sanciones penales y administrativas por maltrato animal.
+                td Aplica a negligencia sanitaria, omisión de cuidados, abandono y prácticas que afecten la salud.
               tr.bg-color-sintesis
                 td Decreto 1071 – Decreto Único del Sector Agropecuario
                 td 2015
                 td MinAgricultura
-                td Integra disposiciones sobre sanidad animal, bienestar y competencias del ICA
-                td Marco regulatorio para vigilancia sanitaria, control de enfermedades y bienestar animal
+                td Integra disposiciones sobre sanidad animal, bienestar y competencias del ICA.
+                td Marco regulatorio para vigilancia sanitaria, control de enfermedades y bienestar animal.
               tr
                 td Decreto 2113 – Bienestar animal
                 td 2017
                 td Presidencia de la República
-                td Reglamenta aspectos del bienestar animal en actividades productivas y de manejo
-                td Principios aplicables al manejo, transporte y cuidado de mascotas
+                td Reglamenta aspectos del bienestar animal en actividades productivas y de manejo.
+                td Principios aplicables al manejo, transporte y cuidado de mascotas.
               tr.bg-color-sintesis
                 td Normativa del Ministerio de Salud y Protección Social
                 td Vigente
                 td MinSalud
-                td Regula la prevención y control de zoonosis, especialmente rabia
-                td Vacunación antirrábica obligatoria, vigilancia epidemiológica y control de brotes
+                td Regula la prevención y control de zoonosis, especialmente rabia.
+                td Vacunación antirrábica obligatoria, vigilancia epidemiológica y control de brotes.
               tr
                 td Resoluciones y lineamientos del ICA
                 td Vigente
                 td ICA
-                td Control sanitario, vigilancia epidemiológica y bienestar animal
-                td Enfermedades de control oficial, bioseguridad, movilización animal
+                td Control sanitario, vigilancia epidemiológica y bienestar animal.
+                td Enfermedades de control oficial, bioseguridad, movilización animal.
               tr.bg-color-sintesis
                 td Normas territoriales (ordenanzas y acuerdos)
                 td Variable
                 td Alcaldías y gobernaciones
-                td Regulan registros, censos, vacunación y convivencia
-                td Aplicación local de registros, control poblacional y protección animal
+                td Regulan registros, censos, vacunación y convivencia.
+                td Aplicación local de registros, control poblacional y protección animal.
 
       
         .row.justify-content-center
