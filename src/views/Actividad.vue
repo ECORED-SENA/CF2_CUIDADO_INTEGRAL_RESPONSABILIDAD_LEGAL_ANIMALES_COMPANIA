@@ -210,71 +210,71 @@ export default {
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
-        {
-          id: 11,
-          texto:
-            'El registro de mascotas solo es obligatorio si se tiene más de un animal.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 12,
-          texto:
-            'La medicina preventiva reduce el sufrimiento animal y protege la salud pública.',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: false },
-            { id: 'b', texto: 'Verdadero', esCorrecta: true },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'Las aves ornamentales deben vacunarse obligatoriamente en Colombia.',
-          imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 14,
-          texto:
-            'El abandono sanitario también se considera una forma de maltrato animal.',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: false },
-            { id: 'b', texto: 'Verdadero', esCorrecta: true },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 15,
-          texto:
-            'La normativa colombiana no aplica para mascotas no convencionales.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
+        //{
+        //  id: 11,
+        //  texto:
+        //    'El registro de mascotas solo es obligatorio si se tiene más de un animal.',
+        //  imagen: require('@/assets/actividad/imagen3.png'),
+        //  barajarRespuestas: true,
+        //  opciones: [
+        //    { id: 'a', texto: 'Falso', esCorrecta: true },
+        //    { id: 'b', texto: 'Verdadero', esCorrecta: false },
+        //  ],
+        //  mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+        //  mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        //},
+        //{
+        //  id: 12,
+        //  texto:
+        //    'La medicina preventiva reduce el sufrimiento animal y protege la salud pública.',
+        //  imagen: require('@/assets/actividad/imagen4.png'),
+        //  barajarRespuestas: true,
+        //  opciones: [
+        //    { id: 'a', texto: 'Falso', esCorrecta: false },
+        //    { id: 'b', texto: 'Verdadero', esCorrecta: true },
+        //  ],
+        //  mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+        //  mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        //},
+        //{
+        //  id: 13,
+        //  texto:
+        //    'Las aves ornamentales deben vacunarse obligatoriamente en Colombia.',
+        //  imagen: require('@/assets/actividad/imagen1.png'),
+        //  barajarRespuestas: true,
+        //  opciones: [
+        //    { id: 'a', texto: 'Falso', esCorrecta: true },
+        //    { id: 'b', texto: 'Verdadero', esCorrecta: false },
+        //  ],
+        //  mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+        //  mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        //},
+        //{
+        //  id: 14,
+        //  texto:
+        //    'El abandono sanitario también se considera una forma de maltrato animal.',
+        //  imagen: require('@/assets/actividad/imagen2.png'),
+        //  barajarRespuestas: true,
+        //  opciones: [
+        //    { id: 'a', texto: 'Falso', esCorrecta: false },
+        //    { id: 'b', texto: 'Verdadero', esCorrecta: true },
+        //  ],
+        //  mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+        //  mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        //},
+        //{
+        //  id: 15,
+        //  texto:
+        //    'La normativa colombiana no aplica para mascotas no convencionales.',
+        //  imagen: require('@/assets/actividad/imagen3.png'),
+        //  barajarRespuestas: true,
+        //  opciones: [
+        //    { id: 'a', texto: 'Falso', esCorrecta: true },
+        //    { id: 'b', texto: 'Verdadero', esCorrecta: false },
+        //  ],
+        //  mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+        //  mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        //},
       ],
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
       mensaje_final_reprobado:
