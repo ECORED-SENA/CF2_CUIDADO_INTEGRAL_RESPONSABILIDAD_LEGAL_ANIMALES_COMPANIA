@@ -303,7 +303,7 @@
               li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Capacidad de alimentarse e hidratarse.
-              li.mb-0.d-flex
+              li.mb-2.d-flex
                 i.fas.fa-circle-check.bg-color-3
                 p.mb-0 Movilidad y autonomía.
               li.mb-2.d-flex
